@@ -23,8 +23,11 @@ export function containsSubstring(string, substring) {
 }
 
 export function stringToNumber(string, onlyCheck) {
-    // Implement the function here
-    return null
+    const number = Number(string);
+    if (onlyCheck) {
+        return !isNaN(number);
+    }
+    return isNaN(number) ? null : number;
 }
 
 export function replaceFirstOccurrence(string, substring, replacement) {
