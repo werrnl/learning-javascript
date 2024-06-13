@@ -6,7 +6,8 @@ export function reverseString(str) {
     // const revertedArray = reverseArray.reverse()
 
     // We need to turn back to a string and return it
-    // const myString = revertedArray.join('')
+    // const myString  = revertedArray.join('')
+    
     // return myString
 
     return str.split('').reverse().join('')
