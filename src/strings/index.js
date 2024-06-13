@@ -35,8 +35,7 @@ export function replaceFirstOccurrence(string, substring, replacement) {
 }
 
 export function replaceAllOccurrences(string, substring, replacement) {
-    // Implement the function here
-    return ''
+    return string.split(substring).join(replacement);
 }
 
 export function transformString(string, toLower) {
