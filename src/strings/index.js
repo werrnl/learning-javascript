@@ -1,6 +1,15 @@
-export function reverseString(string) {
-    // Implement the function here
-    return ''
+export function reverseString(str) {
+    // First we need to create an array based on the split output
+    // const reverseArray = str.split('');
+
+    // Now we have an array and we can reverse it
+    // const revertedArray = reverseArray.reverse()
+
+    // We need to turn back to a string and return it
+    // const myString = revertedArray.join('')
+    // return myString
+
+    return str.split('').reverse().join('')
 }
 
 export function isPalindrome(string) {

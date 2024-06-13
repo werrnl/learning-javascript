@@ -8,7 +8,7 @@ import {
     replaceAllOccurrences,
     transformString,
     capitalizeWord,
-} from './strings'
+} from './index'
 
 
 describe('strings exercises', () => {
