@@ -31,8 +31,7 @@ export function stringToNumber(string, onlyCheck) {
 }
 
 export function replaceFirstOccurrence(string, substring, replacement) {
-    // Implement the function here
-    return ''
+    return string.replace(substring, replacement);
 }
 
 export function replaceAllOccurrences(string, substring, replacement) {
