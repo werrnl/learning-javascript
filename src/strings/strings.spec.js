@@ -14,6 +14,7 @@ import {
 describe('strings exercises', () => {
     it('should reverse a string', () => {
         expect(reverseString('hello')).toBe('olleh')
+        expect(reverseString('olleh')).toBe('hello')
     })
 
     it('should check if a string is a palindrome', () => {

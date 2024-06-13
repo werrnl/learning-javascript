@@ -14,8 +14,8 @@ export function reverseString(str) {
 }
 
 export function isPalindrome(string) {
-    // Implement the function here
-    return false
+    const reversed = string.split('').reverse().join('');
+    return string === reversed;
 }
 
 export function containsSubstring(string, substring) {
