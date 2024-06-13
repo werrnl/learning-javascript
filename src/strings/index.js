@@ -19,8 +19,7 @@ export function isPalindrome(string) {
 }
 
 export function containsSubstring(string, substring) {
-    // Implement the function here
-    return false
+    return string.includes(substring);
 }
 
 export function stringToNumber(string, onlyCheck) {
