@@ -39,11 +39,9 @@ export function replaceAllOccurrences(string, substring, replacement) {
 }
 
 export function transformString(string, toLower) {
-    // Implement the function here
-    return ''
-}
+    return toLower ? string.toLowerCase() : string.toUpperCase();}
 
 export function capitalizeWord(string) {
-    // Implement the function here
-    return ''
+    return string.replace(/\b\w/g, char => char.toUpperCase());
+
 }
