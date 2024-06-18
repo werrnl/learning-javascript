@@ -1,29 +1,23 @@
 export function sumNumbers(a, b) {
-    // Implement the function here
-    return null
+    return Math.round (a + b);
 }
 
 export function isEven(number) {
-    // Implement the function here
-    return false
+    return number % 2 === 0;
 }
 
 export function isOdd(number) {
-    // Implement the function here
-    return false
+    return number % 2 !== 0;
 }
 
 export function absoluteValue(number) {
-    // Implement the function here
-    return null
+    return Math.abs(number);
 }
 
 export function maxNumber(numbers) {
-    // Implement the function here
-    return null
+    return Math.max(...numbers);
 }
 
 export function minNumber(numbers) {
-    // Implement the function here
-    return null
+    return Math.min(...numbers);
 }
