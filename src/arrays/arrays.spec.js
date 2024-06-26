@@ -94,8 +94,8 @@ describe('Arrays exercises', () => {
             { name: 'Charlie', age: 30, city: 'Zürich', index: 2 },
             { name: 'David', age: 35, city: 'Zürich', index: 3 },
             { name: 'Eve', age: 60, city: 'Zürich', index: 4 },
-            { name: 'Eve', age: 50, city: 'Zürich', index: 5 },
-            { name: 'Eve', age: 55, city: 'Zürich', index: 6 },
+            { name: 'Daniel', age: 50, city: 'Zürich', index: 5 },
+            { name: 'Lenny', age: 55, city: 'Zürich', index: 6 },
         ])
         expect(updatedPeople).not.toBe(people)
     })
