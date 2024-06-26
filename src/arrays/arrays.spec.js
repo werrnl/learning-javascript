@@ -89,13 +89,13 @@ describe('Arrays exercises', () => {
     it('should add a new key-value pair to each object in an array', () => {
         const updatedPeople = addPropertyToPeople(people, 'city', 'Zürich')
         expect(updatedPeople).toEqual([
-            { name: 'Alice', age: 22, city: 'Zürich' },
-            { name: 'Bob', age: 32, city: 'Zürich' },
-            { name: 'Charlie', age: 30, city: 'Zürich' },
-            { name: 'David', age: 35, city: 'Zürich' },
-            { name: 'Eve', age: 60, city: 'Zürich' },
-            { name: 'Eve', age: 50, city: 'Zürich' },
-            { name: 'Eve', age: 55, city: 'Zürich' },
+            { name: 'Alice', age: 22, city: 'Zürich', index: 0 },
+            { name: 'Bob', age: 32, city: 'Zürich', index: 1 },
+            { name: 'Charlie', age: 30, city: 'Zürich', index: 2 },
+            { name: 'David', age: 35, city: 'Zürich', index: 3 },
+            { name: 'Eve', age: 60, city: 'Zürich', index: 4 },
+            { name: 'Eve', age: 50, city: 'Zürich', index: 5 },
+            { name: 'Eve', age: 55, city: 'Zürich', index: 6 },
         ])
         expect(updatedPeople).not.toBe(people)
     })
